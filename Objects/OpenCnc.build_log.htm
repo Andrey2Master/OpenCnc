@@ -1,0 +1,141 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Andrey G, B, LIC=Q7GSB-2I24U-BWX2G-VNVWQ-0VQYH-YE183
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.24.1
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DCM.DLL V1.16.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.1.0
+Dialog DLL:      TCM.DLL V1.32.0.0
+ 
+<h2>Project:</h2>
+F:\ARM\OpenCnc\OpenCnc.uvprojx
+Project File Date:  09/18/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+compiling core_cm3.c...
+compiling stm32f10x_crc.c...
+compiling stm32f10x_dbgmcu.c...
+compiling stm32f10x_dac.c...
+compiling stm32f10x_exti.c...
+compiling misc.c...
+compiling stm32f10x_cec.c...
+compiling stm32f10x_bkp.c...
+compiling stm32f10x_flash.c...
+compiling main.cpp...
+.\CORE\stm32f10x.h(528): warning:  #47-D: incompatible redefinition of macro "TRUE"  (declared at line 9 of "global.h")
+  #define TRUE   !FALSE
+main.cpp(58): warning:  #1-D: last line of file ends without a newline
+  }
+main.cpp: 2 warnings, 0 errors
+compiling stm32f10x_adc.c...
+compiling stm32f10x_can.c...
+compiling GenericGCS.cpp...
+..\OpenCnc\global.h(9): warning:  #47-D: incompatible redefinition of macro "TRUE"  (declared at line 528 of ".\CORE\stm32f10x.h")
+  #define TRUE 1
+GCS\GenericGCS.cpp(150): warning:  #177-D: variable "d"  was declared but never referenced
+  int d[3];
+GCS\GenericGCS.cpp(151): warning:  #177-D: variable "ptr"  was declared but never referenced
+  char *ptr;
+GCS\GenericGCS.cpp(152): warning:  #177-D: variable "temp_f"  was declared but never referenced
+  float temp_f[3];
+GCS\GenericGCS.cpp(153): warning:  #177-D: variable "temp"  was declared but never referenced
+  	long temp;
+GCS\GenericGCS.cpp(207): warning:  #1-D: last line of file ends without a newline
+  }
+GCS\GenericGCS.cpp: 6 warnings, 0 errors
+compiling parametr.cpp...
+parametr.cpp(14): warning:  #177-D: variable "i"  was declared but never referenced
+      uint8_t i;
+parametr.cpp(84): warning:  #177-D: variable "i"  was declared but never referenced
+      int i;
+parametr.cpp: 2 warnings, 0 errors
+compiling stm32f10x_dma.c...
+assembling startup_stm32f10x_md.s...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_fsmc.c...
+compiling stm32f10x_iwdg.c...
+compiling stm32f10x_rtc.c...
+compiling stm32f10x_pwr.c...
+compiling stm32f10x_i2c.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_wwdg.c...
+compiling stm32f10x_sdio.c...
+compiling stm32f10x_usart.c...
+compiling system_stm32f10x.c...
+compiling stm32f10x_tim.c...
+compiling hw_config.c...
+.\CORE\stm32f10x.h(528): warning:  #47-D: incompatible redefinition of macro "TRUE"  (declared at line 9 of "global.h")
+  #define TRUE   !FALSE
+hw_config.c: 1 warning, 0 errors
+compiling GenericUart.cpp...
+compiling stm32f10x_it.cpp...
+global.h(9): warning:  #47-D: incompatible redefinition of macro "TRUE"  (declared at line 528 of ".\CORE\stm32f10x.h")
+  #define TRUE 1
+stm32f10x_it.cpp: 1 warning, 0 errors
+compiling cnc.cpp...
+.\CORE\stm32f10x.h(528): warning:  #47-D: incompatible redefinition of macro "TRUE"  (declared at line 9 of "global.h")
+  #define TRUE   !FALSE
+cnc.cpp(80): warning:  #177-D: variable "value"  was declared but never referenced
+  double value,moveLength;	
+cnc.cpp(82): warning:  #177-D: variable "i"  was declared but never referenced
+  uint16_t Pos=0,i;
+cnc.cpp(211): warning:  #177-D: variable "dz"  was declared but never referenced
+   int32_t dz = newZ-linesBuffer.stepsFromStartZ, de = newE-linesBuffer.stepsFromStartE;
+cnc.cpp(240): warning:  #177-D: variable "axisName"  was declared but never referenced
+  	static const char axisName[5] = "XYZE";
+cnc.cpp(241): warning:  #177-D: variable "axisK"  was declared but never referenced
+  	static const double axisK[4] = {SM_X_STEPS_PER_MM,SM_Y_STEPS_PER_MM, SM_Z_STEPS_PER_MM, SM_E_STEPS_PER_MM};
+cnc.cpp(242): warning:  #177-D: variable "time"  was declared but never referenced
+  	static uint32_t time = 0;
+cnc.cpp(243): warning:  #177-D: variable "i"  was declared but never referenced
+   int i;
+cnc.cpp(657): warning:  #111-D: statement is unreachable
+   return TRUE;
+cnc.cpp(658): warning:  #1-D: last line of file ends without a newline
+  }
+cnc.cpp(25): warning:  #177-D: variable "commonTimeReal"  was declared but never referenced
+  static uint32_t commonTimeIdeal, commonTimeReal, startWorkTime;
+cnc.cpp(25): warning:  #177-D: variable "startWorkTime"  was declared but never referenced
+  static uint32_t commonTimeIdeal, commonTimeReal, startWorkTime;
+cnc.cpp: 12 warnings, 0 errors
+compiling stepmotor.cpp...
+global.h(9): warning:  #47-D: incompatible redefinition of macro "TRUE"  (declared at line 528 of ".\CORE\stm32f10x.h")
+  #define TRUE 1
+stepmotor.cpp: 1 warning, 0 errors
+linking...
+Program Size: Code=19284 RO-data=300 RW-data=272 ZI-data=18256  
+FromELF: creating hex file...
+".\Objects\OpenCnc.axf" - 0 Error(s), 25 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.3.0.pack
+                Keil.STM32F1xx_DFP.2.3.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>
