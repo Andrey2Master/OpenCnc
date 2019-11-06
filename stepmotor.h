@@ -15,7 +15,7 @@
 #define M0_EN_PORT GPIOA
 #define M0_EN_PIN GPIO_Pin_1
 #define M0_DIR_PORT GPIOA
-#define M0_DIR_PIN GPIO_Pin_2
+#define M0_DIR_PIN GPIO_Pin_1
 #define M0_STEP_PORT GPIOA
 #define M0_STEP_PIN GPIO_Pin_8
 

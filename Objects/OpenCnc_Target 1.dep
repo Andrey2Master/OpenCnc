@@ -27,7 +27,7 @@ I (.\CORE\../GCS/GenericGCS.h)(0x5D9358E2)
 I (..\OpenCnc\GenericUart.h)(0x5D80E0DE)
 I (cnc.h)(0x5DBC232E)
 I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x588BC994)
-I (stepmotor.h)(0x5DBC0A4C)
+I (stepmotor.h)(0x5DC2C317)
 F (.\parametr.cpp)(0x5D7F954A)(--cpp -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\CORE -I ..\OpenCnc-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DSTM32F1XX-o .\objects\parametr.o --omf_browse .\objects\parametr.crf --depend .\objects\parametr.d)
 I (parametr.h)(0x5D7F9568)
 I (.\CORE\stm32f10x.h)(0x5D779B3E)
@@ -76,7 +76,7 @@ I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588BC994)
 I (..\OpenCnc\hw_config.h)(0x4F900D98)
 I (..\OpenCnc\cnc.h)(0x5DBC232E)
 I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x588BC994)
-I (..\OpenCnc\stepmotor.h)(0x5DBC0A4C)
+I (..\OpenCnc\stepmotor.h)(0x5DC2C317)
 F (.\CORE\core_cm3.c)(0x4C0C9ECE)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\CORE -I ..\OpenCnc-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DSTM32F1XX-o .\objects\core_cm3.o --omf_browse .\objects\core_cm3.crf --depend .\objects\core_cm3.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BC994)
 F (.\CORE\misc.c)(0x4D7873F4)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\CORE -I ..\OpenCnc-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DSTM32F1XX-o .\objects\misc.o --omf_browse .\objects\misc.crf --depend .\objects\misc.d)
@@ -610,7 +610,7 @@ I (.\CORE\stm32f10x_tim.h)(0x4D7873F4)
 I (.\CORE\stm32f10x_usart.h)(0x4D7873F4)
 I (.\CORE\misc.h)(0x4D7873F4)
 I (hw_config.h)(0x4F900D98)
-I (stepmotor.h)(0x5DBC0A4C)
+I (stepmotor.h)(0x5DC2C317)
 F (.\GenericUart.cpp)(0x5D78FE70)(--cpp -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\CORE -I ..\OpenCnc-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DSTM32F1XX-o .\objects\genericuart.o --omf_browse .\objects\genericuart.crf --depend .\objects\genericuart.d)
 I (GenericUart.h)(0x5D80E0DE)
 I (stm32f10x_conf.h)(0x5D820F7E)
@@ -656,12 +656,12 @@ I (.\CORE\stm32f10x_tim.h)(0x4D7873F4)
 I (.\CORE\stm32f10x_usart.h)(0x4D7873F4)
 I (.\CORE\misc.h)(0x4D7873F4)
 I (hw_config.h)(0x4F900D98)
-I (stepmotor.h)(0x5DBC0A4C)
+I (stepmotor.h)(0x5DC2C317)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588BC994)
 I (.\CORE\../GCS/GenericGCS.h)(0x5D9358E2)
 I (..\OpenCnc\GenericUart.h)(0x5D80E0DE)
 F (.\stepmotor.cpp)(0x5DBC2EE4)(--cpp -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\CORE -I ..\OpenCnc-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DSTM32F1XX-o .\objects\stepmotor.o --omf_browse .\objects\stepmotor.crf --depend .\objects\stepmotor.d)
-I (stepmotor.h)(0x5DBC0A4C)
+I (stepmotor.h)(0x5DC2C317)
 I (.\CORE\stm32f10x.h)(0x5D779B3E)
 I (.\CORE\core_cm3.h)(0x4D527398)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BC994)
@@ -708,4 +708,4 @@ I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588BC994)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588BC994)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588BC994)
 I (hw_config.h)(0x4F900D98)
-I (stepmotor.h)(0x5DBC0A4C)
+I (stepmotor.h)(0x5DC2C317)
